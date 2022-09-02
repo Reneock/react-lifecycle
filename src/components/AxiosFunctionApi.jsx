@@ -1,4 +1,4 @@
-/*import React from 'react';
+import React from 'react';
 import { useState, useEffect } from "react";
 import axios from "axios";
 
@@ -31,4 +31,4 @@ function AxiosFunctionApi() {
   );
 }
 
-export default AxiosFunctionApi;*/
+export default AxiosFunctionApi;
