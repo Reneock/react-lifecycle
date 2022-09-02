@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import {Container, Row, Col} from 'react-bootstrap';
+import ClassApi from './components/ClassApi';
+import FunctionApi from './components/FunctionApi';
+import AxiosClassApi from './components/AxiosClassApi';
+import AxiosFunctionApi from './components/AxiosFunctionApi';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Row>
+        <Col md="3">
+          <ClassApi/>
+        </Col>
+        <br/>
+        <Col md="3">
+          <FunctionApi/>
+        </Col>
+        <br/>
+        <Col md="3">
+          <AxiosClassApi/>
+        </Col>
+        <br/>
+        <Col md="3">
+          <AxiosFunctionApi/>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
