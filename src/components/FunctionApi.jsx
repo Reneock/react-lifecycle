@@ -1,4 +1,4 @@
-/*import React from "react";
+import React from "react";
 import { useState, useEffect } from "react";
 
 function FunctionApi() {
@@ -31,4 +31,4 @@ function FunctionApi() {
 	);
 }
 
-export default FunctionApi;*/
+export default FunctionApi;
